@@ -1,37 +1,76 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-    <head>
-        <meta charset="utf-8">
+<!DOCTYPE html>                                     
+<html lang="pt-br">                                 
+    <head>                                          
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">     
         <title>Kombi Home Alura</title>
-        <link rel="stylesheet" href="style-home.css">
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;1,200;1,300&display=swap" rel="stylesheet">
+
     </head>
 
-    <body>
-    	<header>
-    		<h1 class="titulo-principal">Kombi Home Alura</h1>
-    	</header>
-        <img id="flor" src="flor.jpg">
-        <div class="principal">
-	        <h2 class="titulo-centralizado">Sobre a Kombi Home Alura</h2>
+    <body>                                          
+        <header class="zoomimg">
+            <div class="caixa">
+                <h1><img src="logo1.png"></h1> <!--scr = source-->
+                <nav><! navegação -->
+                    <ul>
+                        <li><a href="index.html"> Home <a></li>  <!--<a> de ancor - cria a indicaçao para outra página, o link-->
+                        <li><a href="produtos.html"> Produtos </a></li> 
+                        <li><a href="contato.html"> Contato </a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
 
-	        <p>Localizada no coração da cidade a <strong>Kombi Home Alura</strong> traz para o mercado o que há de melhor para sua cidade. Fundada em 2023, a Ibi Home já é destaque na cidade e conquista novos clientes a cada dia.</p>
+        <img class="flor" src="flor.jpg">           
+        
+        <main>
+                <section class="principal">
+                       <h2 class="titulo-centralizado">Sobre a Kombi Home Alura</h2>
 
-	        <p id="missao"><em>Nossa missão é: <strong>"Proporcionar boas viagens e qualidade de vida"</strong>.</em></p>
+                       <img class="kombi4" src="kombi4.jpg" alt="kombi4 da Kombi Home Alura " >
 
-	        <p>Oferecemos segurança, lazer e comodidade. Nosso motorhome possui padrão de excelência e agilidade, garantindo qualidade e satisfação dos nossos clientes.</p>
-        </div>
+                        <p>Localizada no coração da cidade a <strong>Kombi Home Alura</strong> traz para o mercado o que há de melhor para sua cidade. Fundada em 2023, a Ibi Home já é destaque na cidade e conquista novos clientes a cada dia.</p>
 
-        <div class="benefícios">
-	        <h3 class="titulo-centralizado">Benefícios</h3>
+                        <p id="missao"><em>Nossa missão é: <strong>"Proporcionar boas viagens e qualidade de vida"</strong>.</em></p>
 
-	        <ul>
-	        	<li class="itens">Atendimento aos Clientes</li>
-	            <li class="itens">Viagens seguras</li>
-	            <li class="itens">Localização</li>
-	            <li class="itens">Profissionais Qalificados</li>
-	        </ul>
+                        <p>Oferecemos segurança, lazer e comodidade. Nosso motorhome possui padrão de excelência e agilidade, garantindo qualidade e satisfação dos nossos clientes.</p>
+                </section>
 
-	        <img src="flor2.jpg" class="imagembenefícios">
-	    </div>
+            <section class="mapa">
+                <h3 class="titulo-principal"> Nosso Estabelecimento</h3>
+                <p>Nosso estabelecimento está localizado no coração da cidade</p>
+
+            <div class=figmap>
+                <div class="mapa-conteudo">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d58513.70489917665!2d-46.71763476874999!3d-23.5646162!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59541c6c79c3%3A0x36b90a85f0f8cb33!2sGrupo%20Alura!5e0!3m2!1spt-BR!2sbr!4v1656544197652!5m2!1spt-BR!2sbr" width=100% height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+            </section>
+
+            <section class="beneficios">                    
+                <h3 class="titulo-principal">Benefícios</h3>
+
+                <div class="conteudo-beneficios">
+                    <ul class="lista-beneficios">                                   
+                        <li class="itens">Atendimento aos Clientes</li> 
+                        <li class="itens">Espaço diferenciado</li>
+                        <li class="itens">Localização</li>  
+                        <li class="itens">Profissionais Qualificados</li>
+                        <li class="itens">Pontualidade</li> 
+                        <li class="itens">Limpeza</li>
+                    </ul><img src="flor2.jpg" class="imagemflor2">
+                </div>
+
+            </section>
+        </main>
+
+    <footer>
+        <img src="logo2.png">
+        <p class="copyright">&copy; Copyright Kombi Home - 2023</p>
+    </footer>
+
     </body>
 </html>
